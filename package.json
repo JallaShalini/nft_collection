@@ -1,0 +1,21 @@
+{
+  "name": "nft-collection",
+  "version": "1.0.0",
+  "description": "ERC-721 compatible NFT smart contract with comprehensive test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": ["nft", "erc721", "ethereum", "solidity"],
+  "author": "Jalla Shalini",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0",
+    "@openzeppelin/contracts": "^4.9.0",
+    "chai": "^4.3.7"
+  },
+  "dependencies": {}
+}
